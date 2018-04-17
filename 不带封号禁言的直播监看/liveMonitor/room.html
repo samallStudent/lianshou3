@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="悦野全景VR点播">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name='apple-itunes-app' content='app-id=1185238261'>
+    <meta name="description" content="全景短视频分享社区。记录生活点滴、分享生活精彩，全景相机能完全记录下你周围的一切，打破平面视频的格局，开启一扇新世界的大门。" />
+    <meta name="author" content="悦野健康科技有限公司" />
+    <link rel="stylesheet" href="./css/normal.css">
+    <link rel="stylesheet" href="./css/room.css">
+    
+    <title>悦野后台直播间监看</title>
+  </head>
+  <body>
+    <div class="yl-container">
+      <div class="r-wrapper">
+        <div class="r-content">
+          <div class="r-left">
+            <div class="rl-content">
+              <div class="rl-top">
+                <a class="fl rt-snap" href="javascript:void(0);">
+                  <img src="" alt="" id="t-snap">
+                </a>
+                <div class="fl rt-room-info">
+                  <p class="rt-tit" id="r-tit"></p>
+                  <p class="rt-txt">
+                    <span class="rt-a-level"></span>
+                    <span class="r-nick" id="r-nick"></span>
+                    <span class="rt-icon"></span>
+                    <span class="rt-count" id="r-count"></span>
+                  </p>
+                </div>
+              </div>
+              <div id="yl-video" class="rl-video">
+                <iframe id="ifr" src="" frameborder="0" scrolling=no width="100%" height="100%"></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="r-right">
+            <div class="rr-top">
+              聊天信息
+            </div>
+            <div class="rr-msg">
+              <ul id="rr-msgList">
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="./js/NIM_Web_SDK_v4.9.0.js"></script>
+  <script src="./js/room.js"></script>
+</html>
